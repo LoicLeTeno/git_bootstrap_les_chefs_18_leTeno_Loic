@@ -1,0 +1,50 @@
+#section-header {
+        background-image: url(../../../public/img/banner1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+
+    .bg-carousel {
+        background-color: rgba(0, 0, 0, 0.8);
+
+        #carouselExampleIndicators {
+            padding-top: 370px;
+            padding-bottom: 400px;
+
+            ol {
+                #rond-indicator {
+                    border-radius: 100%;
+                    width: 20px;
+                    height: 20px;
+                }
+                #rond-indicator.active {
+                    
+                }
+            }
+            .titre-header {
+                font-family: $courgette;
+                font-size: 70px;
+                line-height: 90px;
+
+                color: white;
+                filter: brightness(85%);
+                
+                span.word-1 {
+                    font-size: 150%;
+                }
+                span.word-2 {
+                    color: #B12A3A;
+
+                    font-size: 150%;
+                }
+                span.word-3 {
+                    font-size: 150%;
+                }
+                span.word-4 {
+                    font-size: 150%;
+                }
+            }
+        }
+    }
+
+}
