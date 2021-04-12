@@ -15907,6 +15907,7 @@ nav #logo img {
 
 #section-menu .menu-card {
   background-color: white;
+  border: solid 2px #e1e1e1;
   width: 85%;
   margin: 0 auto;
 }
@@ -15948,13 +15949,66 @@ nav #logo img {
   font-size: 150%;
 }
 
-#section-menu .menu-card #menu-list .card-style {
-  border-bottom: solid 1px black;
+#section-menu .menu-card #menu-list .list-group-item {
+  font-family: "courgette";
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 2px #e1e1e1;
+  border-radius: 0;
+  width: 98%;
 }
 
-#section-menu .menu-card #menu-list .prix-card {
+#section-menu .menu-card #menu-list .list-group-item i {
+  color: #c8c8c8;
+  font-size: 70px;
+}
+
+#section-menu .menu-card #menu-list .list-group-item h2 {
+  color: black;
+}
+
+#section-menu .menu-card #menu-list .list-group-item.active {
+  background-color: transparent;
+  border-right: solid 5px #C42D40;
+  border-bottom: solid 2px #e1e1e1;
+  width: 100%;
+}
+
+#section-menu .menu-card #menu-list .list-group-item.active i {
+  color: #C42D40;
+  font-size: 70px;
+}
+
+#section-menu .menu-card #menu-list .list-group-item.active h2 {
+  color: black;
+}
+
+#section-menu .menu-card #menu-list .border-menu {
+  border-radius: 8px;
+  border-left: solid 2px #e1e1e1;
+}
+
+#section-menu .menu-card #menu-list .border-menu .card-style {
+  border-radius: 0;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: dotted 2px #e1e1e1;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#section-menu .menu-card #menu-list .border-menu .card-style img {
+  width: 120px;
+  border: solid 8px #e1e1e1;
+  border-radius: 100%;
+}
+
+#section-menu .menu-card #menu-list .border-menu .prix-card {
   font-weight: bold;
-  background-color: #e6e6e6;
+  background-color: #e1e1e1;
   color: #C42D40;
   padding: 0 15px;
+  margin-left: 30px;
 }

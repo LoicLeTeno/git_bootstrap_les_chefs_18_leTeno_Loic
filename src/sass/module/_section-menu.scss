@@ -3,6 +3,9 @@
 
     .menu-card {
         background-color: white;
+
+        border: solid 2px $border;
+
         width: 85%;
         margin: 0 auto;
 
@@ -48,16 +51,73 @@
             }
         }
         #menu-list {
-            .card-style {
-                border-bottom: solid 1px black;
+
+            .list-group-item {
+                font-family: $courgette;
+
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: solid 2px $border;
+                border-radius: 0;
+
+                width: 98%;
+
+                i {
+                    color: rgb(200, 200, 200);
+                    
+                    font-size: 70px;
+                }
+                h2 {
+                    color: black;
+                }
             }
-            .prix-card {
-                font-weight: bold;
+            .list-group-item.active {
+                background-color: transparent;
 
-                background-color: rgb(230, 230, 230);
-                color: $redButton;
+                border-right: solid 5px $redButton;
+                border-bottom: solid 2px $border;
 
-                padding: 0 15px;
+                width: 100%;
+                i {
+                    color: $redButton;
+                    
+                    font-size: 70px;
+                }
+                h2 {
+                    color: black;
+                }
+            }
+            .border-menu {
+                border-radius: 8px;
+                border-left: solid 2px $border;
+
+                .card-style {
+                    border-radius: 0;
+                    border-top: none;
+                    border-right: none;
+                    border-left: none;
+                    border-bottom: dotted 2px $border;
+
+                    padding-top: 20px;
+                    padding-bottom: 10px;
+    
+                    img {
+                        width: 120px;
+    
+                        border: solid 8px $border;
+                        border-radius: 100%;
+                    }
+                }
+                .prix-card {
+                    font-weight: bold;
+    
+                    background-color: $border;
+                    color: $redButton;
+    
+                    padding: 0 15px;
+                    margin-left: 30px;
+                }
             }
         }
     }
