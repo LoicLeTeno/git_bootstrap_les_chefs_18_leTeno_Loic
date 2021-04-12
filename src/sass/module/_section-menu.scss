@@ -1,0 +1,64 @@
+#section-menu {
+    background-image: url(../../../public/img/main_bg.jpg);
+
+    .menu-card {
+        background-color: white;
+        width: 85%;
+        margin: 0 auto;
+
+        div {
+            .our-story {
+                font-family: $courgette;
+                font-size: 40px;
+
+                p {
+                    height: 75px;
+                }
+
+                span.word-1 {
+                    color: $redButton;
+
+                    font-size: 150%;
+                }               
+            }
+        }
+        .container-p {
+                width: 560px;
+
+                margin: 0 auto;
+
+                .text-story {
+                    font-family: $lato;
+                }
+        }  
+        div {
+            .our-menu {
+                font-family: $courgette;
+                font-size: 40px;
+
+                p {
+                    height: 75px;
+                }
+
+                span.word-2 {
+                    color: $redButton;
+
+                    font-size: 150%;
+                }    
+            }
+        }
+        #menu-list {
+            .card-style {
+                border-bottom: solid 1px black;
+            }
+            .prix-card {
+                font-weight: bold;
+
+                background-color: rgb(230, 230, 230);
+                color: $redButton;
+
+                padding: 0 15px;
+            }
+        }
+    }
+}

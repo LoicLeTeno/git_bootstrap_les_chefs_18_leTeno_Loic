@@ -15898,4 +15898,63 @@ nav #logo img {
   background-image: url(../../../public/img/bottom_decoration_img.png);
   background-color: rgba(0, 0, 0, 0.8);
   background-repeat: repeat-x;
+  height: 10px;
+}
+
+#section-menu {
+  background-image: url(../../../public/img/main_bg.jpg);
+}
+
+#section-menu .menu-card {
+  background-color: white;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#section-menu .menu-card div .our-story {
+  font-family: "courgette";
+  font-size: 40px;
+}
+
+#section-menu .menu-card div .our-story p {
+  height: 75px;
+}
+
+#section-menu .menu-card div .our-story span.word-1 {
+  color: #C42D40;
+  font-size: 150%;
+}
+
+#section-menu .menu-card .container-p {
+  width: 560px;
+  margin: 0 auto;
+}
+
+#section-menu .menu-card .container-p .text-story {
+  font-family: "lato";
+}
+
+#section-menu .menu-card div .our-menu {
+  font-family: "courgette";
+  font-size: 40px;
+}
+
+#section-menu .menu-card div .our-menu p {
+  height: 75px;
+}
+
+#section-menu .menu-card div .our-menu span.word-2 {
+  color: #C42D40;
+  font-size: 150%;
+}
+
+#section-menu .menu-card #menu-list .card-style {
+  border-bottom: solid 1px black;
+}
+
+#section-menu .menu-card #menu-list .prix-card {
+  font-weight: bold;
+  background-color: #e6e6e6;
+  color: #C42D40;
+  padding: 0 15px;
 }
