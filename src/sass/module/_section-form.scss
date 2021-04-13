@@ -1,0 +1,137 @@
+#section-form {
+    background-image: url(../../../public/img/main_bg.jpg);
+
+    .form-card {
+        background-color: white;
+
+        border: solid 2px $border;
+
+        width: 75%;
+        margin: 0 auto;
+
+        div {
+            .book-table {
+                font-family: $courgette;
+                font-size: 40px;
+
+                p {
+                    height: 75px;
+                }
+
+                span.word-1 {
+                    color: $redButton;
+
+                    font-size: 150%;
+                }               
+            }
+        }
+        .bg-form {
+            background-image: url(../../../public/img/book_table_bg.jpg);
+
+            width: 55%;
+            margin: 0 auto;
+
+            .container-form {
+                width: 70%;
+                margin: 0 auto;
+
+                .titre-form {
+                    font-family: $lato;
+    
+                    p {
+                        font-size: 105%;
+                    }
+                    span.word-2 {
+                        font-size: 150%;
+                    }
+                }
+                form {
+
+                    .input-form {
+                        border-radius: 10px 10px 10px 10px;
+
+                        height: 45px;
+                    }
+                }
+                button {
+                    background-color: $redButton;
+                    color: white;
+                }
+            }
+        }
+        .titre-blog {
+            .our-blog {
+                font-family: $courgette;
+                font-size: 40px;
+
+                p {
+                    height: 75px;
+                }
+
+                span.word-3 {
+                    color: $redButton;
+
+                    font-size: 150%;
+                }               
+            }
+        }
+        .container-row {
+
+            .card {
+                width: 450px;
+
+                img {
+                    border: solid 5px $border;
+                    border-radius: 15px 15px 15px 15px;
+                }
+                .card-body {
+
+
+                    .surperposer {
+                        display: flex;
+                        justify-content: center;
+
+                        position: absolute;
+
+                        top: 235px;
+                        left: 60px;
+
+                        p {
+                            display: inline-block;
+                            
+                            background-color: $redButton;
+                            color: white;
+    
+                            font-family: $lato;
+    
+                            border-radius: 8px 8px 8px 8px;
+    
+                            margin: 0;
+                            padding: 5px 30px 5px 10px;
+                        }
+                        span.word-4 {
+                            font-size: 130%;
+                            font-weight: bold;
+                        }
+                        span.word-5 {
+                            font-size: 180%;
+                            font-weight: lighter;
+                        }
+                    }
+                    .text-card {
+                        width: 325px;
+
+                        margin: 25px auto 0;
+                    }
+                }
+            }
+        }
+
+        button {
+            background-color: $redButton;
+            color: white;
+
+            position: absolute;
+        }
+    }
+}
