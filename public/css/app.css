@@ -15908,7 +15908,7 @@ nav #logo img {
 #section-menu .menu-card {
   background-color: white;
   border: solid 2px #e1e1e1;
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -15987,6 +15987,7 @@ nav #logo img {
 #section-menu .menu-card #menu-list .border-menu {
   border-radius: 8px;
   border-left: solid 2px #e1e1e1;
+  padding-top: 25px;
 }
 
 #section-menu .menu-card #menu-list .border-menu .card-style {
@@ -15995,7 +15996,6 @@ nav #logo img {
   border-right: none;
   border-left: none;
   border-bottom: dotted 2px #e1e1e1;
-  padding-top: 20px;
   padding-bottom: 10px;
 }
 
@@ -16007,6 +16007,7 @@ nav #logo img {
 
 #section-menu .menu-card #menu-list .border-menu .prix-card {
   font-weight: bold;
+  font-size: 20px;
   background-color: #e1e1e1;
   color: #C42D40;
   padding: 0 15px;

@@ -6,7 +6,7 @@
 
         border: solid 2px $border;
 
-        width: 85%;
+        width: 75%;
         margin: 0 auto;
 
         div {
@@ -92,6 +92,8 @@
                 border-radius: 8px;
                 border-left: solid 2px $border;
 
+                padding-top: 25px;
+
                 .card-style {
                     border-radius: 0;
                     border-top: none;
@@ -99,7 +101,7 @@
                     border-left: none;
                     border-bottom: dotted 2px $border;
 
-                    padding-top: 20px;
+                    
                     padding-bottom: 10px;
     
                     img {
@@ -111,6 +113,7 @@
                 }
                 .prix-card {
                     font-weight: bold;
+                    font-size: 20px;
     
                     background-color: $border;
                     color: $redButton;
