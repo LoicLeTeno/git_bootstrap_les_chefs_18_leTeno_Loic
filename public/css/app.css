@@ -16016,8 +16016,6 @@ nav #logo img {
 
 #section-center {
   background-image: url(../../../public/img/team_background.jpg);
-  background-size: cover;
-  background-position: bottom;
 }
 
 #section-center .titre-chef .our-chef {
@@ -16163,6 +16161,62 @@ nav #logo img {
   background-color: #C42D40;
   color: white;
   position: absolute;
+}
+
+#section-testimo {
+  background-image: url(../../../public/img/testimonials_background.jpg);
+}
+
+#section-testimo .titre-testimo .client-testimo {
+  font-family: "courgette";
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+
+#section-testimo .titre-testimo .client-testimo p {
+  color: white;
+  height: 75px;
+}
+
+#section-testimo .titre-testimo .client-testimo span.word-1 {
+  color: #C42D40;
+  font-size: 150%;
+}
+
+#section-testimo .container-testimo {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#section-testimo .container-testimo .card {
+  border: none;
+}
+
+#section-testimo .container-testimo .card img {
+  width: 200px;
+  border: solid 8px #e1e1e1;
+  border-radius: 100%;
+}
+
+#section-testimo .container-testimo .card .card-body {
+  border: solid 1px #e1e1e1;
+  border-radius: 10px 10px 10px 10px;
+  height: 200px;
+}
+
+#section-testimo .container-testimo .card .card-body .card-title {
+  font-size: 150%;
+  color: white;
+}
+
+#section-testimo .container-testimo .card .card-body .card-subtitle {
+  font-size: 120%;
+  color: #C42D40;
+}
+
+#section-testimo .container-testimo .card .card-body p {
+  font-size: 110%;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 #section-form {

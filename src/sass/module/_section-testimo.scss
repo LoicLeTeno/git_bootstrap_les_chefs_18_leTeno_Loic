@@ -1,0 +1,61 @@
+#section-testimo {
+    background-image: url(../../../public/img/testimonials_background.jpg);
+
+    .titre-testimo {
+
+        .client-testimo {
+            font-family: $courgette;
+            font-size: 40px;
+            margin-bottom: 100px;
+            p {
+                color: white;
+
+                height: 75px;
+            }
+
+            span.word-1 {
+                color: $redButton;
+
+                font-size: 150%;
+            } 
+        }
+    }
+    .container-testimo {
+        width: 75%; 
+        margin: 0 auto;
+
+        .card {
+            border: none;
+
+            img{
+                width: 200px;
+    
+                border: solid 8px $border;
+                border-radius: 100%;
+            }
+            .card-body {
+                border: solid 1px $border;
+                border-radius: 10px 10px 10px 10px;
+                
+                height: 200px;
+
+                .card-title {
+                    font-size: 150%;
+
+
+                    color: white;
+                }
+                .card-subtitle {
+                    font-size: 120%;
+
+                    color: $redButton;
+                }
+                p {
+                    font-size: 110%;
+
+                    color: rgba(255, 255, 255, 0.7);
+                }
+            }
+        }
+    }
+}
