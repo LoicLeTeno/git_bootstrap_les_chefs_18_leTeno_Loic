@@ -1,10 +1,20 @@
-// IMPORT
+// IMPORT HEADER-FOOTER
 @import  "./_navbar.scss";
+@import  "./_footer.scss";
+
+
+// SECTION
 @import  "./_section-header.scss";
 @import  "./_section-menu";
 @import  "./_section-center";
 @import  "./_section-form";
 @import  "./_section-testimo";
 @import  "./_section-contact";
-@import  "./_footer.scss";
-@import  "./_media.scss";
+
+
+// MEDIA QUERIES
+@import  "./_media-header.scss";
+@import  "./_media-menu.scss";
+@import  "./_media-form.scss";
+@import  "./_media-testimo.scss";
+@import  "./_media-footer.scss";

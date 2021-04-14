@@ -1,6 +1,7 @@
 #section-form {
     background-image: url(../../../public/img/main_bg.jpg);
 
+    // CARTE-cENTER
     .form-card {
         background-color: white;
 
@@ -9,6 +10,7 @@
         width: 75%;
         margin: 0 auto;
 
+        // TITRE-FORM
         div {
             .book-table {
                 font-family: $courgette;
@@ -25,6 +27,7 @@
                 }               
             }
         }
+        // BACKGROUND-FORM
         .bg-form {
             background-image: url(../../../public/img/book_table_bg.jpg);
 
@@ -35,6 +38,7 @@
                 width: 70%;
                 margin: 0 auto;
 
+                // TITRE-CONTAINER-FORM
                 .titre-form {
                     font-family: $lato;
     
@@ -45,8 +49,8 @@
                         font-size: 150%;
                     }
                 }
+                // FORMULAIRE
                 form {
-
                     .input-form {
                         border-radius: 10px 10px 10px 10px;
 
@@ -59,6 +63,7 @@
                 }
             }
         }
+        // TITRE-BLOG
         .titre-blog {
             .our-blog {
                 font-family: $courgette;
@@ -75,8 +80,8 @@
                 }               
             }
         }
+        // CONTAINER-ROW-CARD-IMAGE
         .container-row {
-
             .card {
                 width: 450px;
 
@@ -85,16 +90,13 @@
                     border-radius: 15px 15px 15px 15px;
                 }
                 .card-body {
+                    position: relative;
 
+                    bottom: 50px;
 
                     .surperposer {
                         display: flex;
-                        justify-content: center;
-
-                        position: absolute;
-
-                        top: 235px;
-                        left: 60px;
+                        justify-content: center;                             
 
                         p {
                             display: inline-block;

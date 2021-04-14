@@ -1,0 +1,36 @@
+@media screen and (max-width: 1590px) {
+    header {
+        // NAV-BAR
+        nav {
+            // NAV-A
+            #navbarSupportedContent {
+                div {
+                    a {
+                        font-size: 12px;
+
+                        margin: 5px 0;
+                        padding: 15px 38px;
+                    }
+                }
+            }
+            // LOGO
+            #logo {
+                img {
+                    width: 70px;
+
+                    margin: 0 15px;
+                }
+            }
+        }
+    }
+
+    // SECTION-HEADER
+    #section-header {
+        .bg-carousel {
+        // CAROUSEL
+            #carouselExampleIndicators {
+                padding: 200px 0;
+            }  
+        }
+    }
+}

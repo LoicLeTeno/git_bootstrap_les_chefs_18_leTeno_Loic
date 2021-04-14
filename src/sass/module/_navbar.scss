@@ -1,8 +1,7 @@
 // NAV-BAR
 nav {
-
+    // MENU-A
     #navbarSupportedContent {
-
         div {
 
             a {
@@ -10,6 +9,8 @@ nav {
 
                 border-top: solid 1px $transparent;
                 border-bottom: solid 1px $transparent;
+
+                padding: 20px 45px;
             }
             a:hover {
                 background-color: $redButton;
@@ -17,9 +18,12 @@ nav {
             
         }
     }
+    // LOGO
     #logo {
         img {
-            width: 100px;        
+            width: 100px;   
+            
+            margin: 0 60px;
         }
     }
 }

@@ -1,0 +1,13 @@
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    #section-testimo {
+        // cARD-TESTIMO
+        .container-testimo {
+            width: 90%;
+            .card {
+                .card-body {
+                    font-size: 80%;
+                }
+            }
+        }
+    }
+}

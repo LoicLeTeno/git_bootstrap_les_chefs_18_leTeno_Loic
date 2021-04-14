@@ -1,0 +1,76 @@
+footer {
+    .banderole-2 {
+        background-image: url(../../../public/img/footer_bottom_decoration_img.png);
+        background-color: rgb(0, 0, 0,);
+        background-repeat: repeat-x;
+
+        height: 10px;
+    }
+    // BACKGROUND-FOOTER
+    .bg-footer {
+        background-image: url(../../../public/img/footer_background.jpg);
+        background-position: left;
+
+        .row-footer {
+            width: 65%;
+
+            margin: 0 auto;
+            padding: 50px 0;
+
+            // PARAGRAPHE-SOCIAUX
+            .col-texte {
+                color: white;
+    
+                h3 {
+                    padding-bottom: 30px;
+                }
+                p {
+                    color: rgba(255, 255, 255, 0.8);
+                }
+                .logo-sociaux {
+                    
+                    i {
+                        font-size: 180%;
+
+                        margin-right: 25px;
+                    }
+                }
+            }
+            // INSTAGRAM
+            .col-insta {
+                color: white;
+
+                h3{
+                    padding-bottom: 30px;
+                }
+                
+            }
+            // TAGS-POPULAR
+            .col-button {
+                color: white;
+
+                h3 {
+                    padding-bottom: 30px;
+                }
+
+                .button-footer {
+                    background-color: $redButton;
+                    color: white;
+                    
+                    border: solid 1px white;
+
+                    margin-bottom: 10px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    // FOO-FOOTER-RED
+    .barre-rouge {
+        background-color: $redButton;
+
+        height: 80px;
+    }
+}
+
+

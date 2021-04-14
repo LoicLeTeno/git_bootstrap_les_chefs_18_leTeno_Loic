@@ -1,8 +1,14 @@
 #section-testimo {
     background-image: url(../../../public/img/testimonials_background.jpg);
+    background-repeat: no-repeat;
+    background-size: 10000px;
+    background-position-x: 70%;
+    background-position-y: 90%;
 
+    // DIV-TESTIMO
     .titre-testimo {
 
+        // TITRE-TESTIMO
         .client-testimo {
             font-family: $courgette;
             font-size: 40px;
@@ -19,6 +25,7 @@
             } 
         }
     }
+    // cARD-TESTIMO
     .container-testimo {
         width: 75%; 
         margin: 0 auto;

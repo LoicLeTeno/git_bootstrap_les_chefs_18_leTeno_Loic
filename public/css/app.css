@@ -15823,6 +15823,7 @@ nav #navbarSupportedContent div a {
   color: white;
   border-top: solid 1px white;
   border-bottom: solid 1px white;
+  padding: 20px 45px;
 }
 
 nav #navbarSupportedContent div a:hover {
@@ -15831,12 +15832,77 @@ nav #navbarSupportedContent div a:hover {
 
 nav #logo img {
   width: 100px;
+  margin: 0 60px;
+}
+
+footer .banderole-2 {
+  background-image: url(../../../public/img/footer_bottom_decoration_img.png);
+  background-color: black;
+  background-repeat: repeat-x;
+  height: 10px;
+}
+
+footer .bg-footer {
+  background-image: url(../../../public/img/footer_background.jpg);
+  background-position: left;
+}
+
+footer .bg-footer .row-footer {
+  width: 65%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+footer .bg-footer .row-footer .col-texte {
+  color: white;
+}
+
+footer .bg-footer .row-footer .col-texte h3 {
+  padding-bottom: 30px;
+}
+
+footer .bg-footer .row-footer .col-texte p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+footer .bg-footer .row-footer .col-texte .logo-sociaux i {
+  font-size: 180%;
+  margin-right: 25px;
+}
+
+footer .bg-footer .row-footer .col-insta {
+  color: white;
+}
+
+footer .bg-footer .row-footer .col-insta h3 {
+  padding-bottom: 30px;
+}
+
+footer .bg-footer .row-footer .col-button {
+  color: white;
+}
+
+footer .bg-footer .row-footer .col-button h3 {
+  padding-bottom: 30px;
+}
+
+footer .bg-footer .row-footer .col-button .button-footer {
+  background-color: #C42D40;
+  color: white;
+  border: solid 1px white;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+footer .barre-rouge {
+  background-color: #C42D40;
+  height: 80px;
 }
 
 #section-header {
   background-image: url(../../../public/img/banner1.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: right;
 }
 
 #section-header .bg-carousel {
@@ -15896,7 +15962,7 @@ nav #logo img {
 
 #section-header .banderole {
   background-image: url(../../../public/img/bottom_decoration_img.png);
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: black;
   background-repeat: repeat-x;
   height: 10px;
 }
@@ -16016,6 +16082,10 @@ nav #logo img {
 
 #section-center {
   background-image: url(../../../public/img/team_background.jpg);
+  background-repeat: no-repeat;
+  background-size: 20000px;
+  background-position-x: 50%;
+  background-position-y: 42%;
 }
 
 #section-center .titre-chef .our-chef {
@@ -16124,12 +16194,14 @@ nav #logo img {
   border-radius: 15px 15px 15px 15px;
 }
 
+#section-form .form-card .container-row .card .card-body {
+  position: relative;
+  bottom: 50px;
+}
+
 #section-form .form-card .container-row .card .card-body .surperposer {
   display: flex;
   justify-content: center;
-  position: absolute;
-  top: 235px;
-  left: 60px;
 }
 
 #section-form .form-card .container-row .card .card-body .surperposer p {
@@ -16165,6 +16237,10 @@ nav #logo img {
 
 #section-testimo {
   background-image: url(../../../public/img/testimonials_background.jpg);
+  background-repeat: no-repeat;
+  background-size: 10000px;
+  background-position-x: 70%;
+  background-position-y: 90%;
 }
 
 #section-testimo .titre-testimo .client-testimo {
@@ -16265,4 +16341,52 @@ nav #logo img {
 #section-contact .box-contact .message i {
   font-size: 320%;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 1590px) {
+  header nav #navbarSupportedContent div a {
+    font-size: 12px;
+    margin: 5px 0;
+    padding: 15px 38px;
+  }
+  header nav #logo img {
+    width: 70px;
+    margin: 0 15px;
+  }
+  #section-header .bg-carousel #carouselExampleIndicators {
+    padding: 200px 0;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  #section-menu .menu-card #menu-list .border-menu {
+    border: none;
+  }
+  #section-menu .menu-card #menu-list .border-menu .card-style img {
+    width: 110px;
+  }
+  #section-menu .menu-card #menu-list .border-menu .prix-card {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  #section-form .form-card .bg-form .container-form .titre-form {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  #section-testimo .container-testimo {
+    width: 90%;
+  }
+  #section-testimo .container-testimo .card .card-body {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  footer .bg-footer .row-footer {
+    width: 85%;
+  }
 }

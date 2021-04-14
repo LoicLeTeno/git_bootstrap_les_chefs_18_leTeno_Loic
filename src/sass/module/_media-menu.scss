@@ -1,0 +1,31 @@
+@media screen and (max-width: 1520px) {
+    #section-menu {
+        // CONTAINER-CARD
+        .menu-card {
+            // MENU
+            #menu-list {
+                // CARD-BODY
+                .border-menu {
+                    border: none;
+                    
+                    // CARD-STYLE
+                    .card-style {
+                        img {
+                            width: 110px;
+                            
+                        }
+                    }
+                    // CARD-BODY
+                    .card-body {
+                        
+                    }
+                    // PRIX
+                    .prix-card {
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
