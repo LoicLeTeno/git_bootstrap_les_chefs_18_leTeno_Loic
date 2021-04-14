@@ -16140,6 +16140,7 @@ footer .barre-rouge {
 
 #section-form .form-card .bg-form {
   background-image: url(../../../public/img/book_table_bg.jpg);
+  background-position: right;
   width: 55%;
   margin: 0 auto;
 }
@@ -16370,9 +16371,21 @@ footer .barre-rouge {
   }
 }
 
+@media screen and (max-width: 920px) {
+  #section-menu .menu-card {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 1480px) {
   #section-form .form-card .bg-form .container-form .titre-form {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #section-form .form-card {
+    width: 100%;
   }
 }
 

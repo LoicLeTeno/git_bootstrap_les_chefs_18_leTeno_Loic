@@ -2,6 +2,9 @@
     #section-menu {
         // CONTAINER-CARD
         .menu-card {
+            // TITRE-OUR-STORY
+            .our-story {
+            }
             // MENU
             #menu-list {
                 // CARD-BODY
@@ -29,3 +32,13 @@
     }
 }
 
+
+// TABLET
+@media screen and (max-width: 920px) {
+    #section-menu {
+        // CONTAINER-CARD
+        .menu-card {
+            width: 100%;
+        }
+    }
+}
