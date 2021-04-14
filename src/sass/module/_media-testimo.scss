@@ -1,8 +1,21 @@
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
     #section-testimo {
+
+        // DIV-TESTIMO
+        .titre-testimo {
+
+            // TITRE-TESTIMO
+            .client-testimo {
+
+                font-size: 30px;
+                margin-bottom: 50px;
+            }
+        }
+
         // cARD-TESTIMO
         .container-testimo {
             width: 90%;
+
             .card {
                 .card-body {
                     font-size: 80%;

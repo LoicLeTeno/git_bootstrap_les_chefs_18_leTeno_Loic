@@ -1,27 +1,29 @@
 @media screen and (max-width: 1520px) {
     #section-menu {
+
         // CONTAINER-CARD
         .menu-card {
+
             // TITRE-OUR-STORY
-            .our-story {
-            }
+            .our-story {}
+
             // MENU
             #menu-list {
+
                 // CARD-BODY
                 .border-menu {
-                    border: none;
-                    
+
                     // CARD-STYLE
                     .card-style {
                         img {
                             width: 110px;
-                            
+
                         }
                     }
+
                     // CARD-BODY
-                    .card-body {
-                        
-                    }
+                    .card-body {}
+
                     // PRIX
                     .prix-card {
                         margin-left: 0px;
@@ -33,12 +35,130 @@
 }
 
 
+// BORDER-BUTTON
+@media screen and (max-width: 1200px) {
+    #section-menu {
+
+        // CONTAINER-CARD
+        .menu-card {
+
+            // TITRE-OUR-STORY
+            .our-story {}
+
+            // MENU
+            #menu-list {
+                .list-group-item {
+                    border-right: solid 2px $border;
+                }
+
+                .list-group-item.active {
+                    border-right: none;
+                    border-bottom: solid 5px $redButton;
+                }
+
+                // CARD-BODY
+                .border-menu {
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+
 // TABLET
 @media screen and (max-width: 920px) {
     #section-menu {
+
         // CONTAINER-CARD
         .menu-card {
             width: 100%;
         }
+    }
+}
+
+
+// TABLET-2
+@media screen and (max-width: 769px) {
+    #section-menu {
+
+        // CONTAINER-CARD
+        .menu-card {
+
+            // PARA-OUR-STORY
+            .container-p {
+                width: 70%;
+
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+
+// SMARTPHONE
+@media screen and (max-width: 440px) {
+    #section-menu {
+
+        // CONTAINER-CARD
+        .menu-card {
+
+            // TITRE-OUR-STORY
+            div {
+                .our-story {
+                    font-size: 30px;
+
+                    line-height: 35px;
+                }
+            }
+
+            // TITRE-OUR-MENU
+            div {
+                .our-menu {
+                    font-size: 30px;
+                }
+            }
+
+            // MENU
+            #menu-list {
+                .list-group-item {
+
+                    // MENU-NAV
+                    h2 {
+                        display: none;
+                    }
+                }
+
+                // CARD-MENU
+                .list-group-item.active {
+                    h2 {
+                        display: none;
+                    }
+                }
+
+                // CARD-BODY
+                .border-menu {
+                    .card-style {
+                        .card-body {
+                            display: none;
+                        }
+
+                        // PRIX
+                        .prix-card {
+                            margin: 0 auto;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// PETIT-PETIT
+@media screen and (max-width: 360px) {
+    .bout-carte {
+        display: none;
     }
 }

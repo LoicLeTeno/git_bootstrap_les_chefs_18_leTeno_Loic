@@ -3,6 +3,7 @@
 
     .titre-contact {
 
+        // TITRE-CONTACT
         .our-contact {
             font-family: $courgette;
             font-size: 40px;
@@ -11,13 +12,16 @@
             p {
                 height: 75px;
             }
+
             span.word-1 {
                 color: $redButton;
 
                 font-size: 150%;
-            } 
+            }
         }
     }
+
+    // CONTAINER-ROUGE
     .box-contact {
         background-color: $redButton;
         color: white;
@@ -25,7 +29,7 @@
         text-align: center;
 
         width: 24%;
-        
+
         margin: 0 auto;
         padding: 40px 25px 20px;
 
@@ -36,6 +40,7 @@
                 font-size: 320%;
             }
         }
+
         .phone {
             border-top: solid 1px rgba(255, 255, 255, 0.4);
             border-bottom: solid 1px rgba(255, 255, 255, 0.4);
@@ -46,6 +51,7 @@
                 margin-top: 20px;
             }
         }
+
         .message {
             i {
                 font-size: 320%;

@@ -6,10 +6,13 @@
     background-position-y: 42%;
 
     .titre-chef {
+
+        // TITRE-MEET-OUR-CHEF
         .our-chef {
             font-family: $courgette;
             font-size: 40px;
             margin-bottom: 100px;
+
             p {
                 color: white;
 
@@ -20,15 +23,18 @@
                 color: $redButton;
 
                 font-size: 150%;
-            }   
+            }
         }
     }
+
+    // MARGIN-IMAGES
     .margin-chef {
         margin: 0 180px;
 
         .row-chefs {
-            
             div {
+
+                // IMAGES
                 img {
                     width: 300px;
 

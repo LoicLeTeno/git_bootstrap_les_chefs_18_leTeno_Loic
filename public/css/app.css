@@ -16359,15 +16359,34 @@ footer .barre-rouge {
   }
 }
 
-@media screen and (max-width: 1520px) {
-  #section-menu .menu-card #menu-list .border-menu {
-    border: none;
+@media screen and (max-width: 769px) {
+  #section-header .bg-carousel #carouselExampleIndicators {
+    padding: 100px 0;
   }
+  #section-header .bg-carousel #carouselExampleIndicators .titre-header {
+    font-size: 200%;
+  }
+}
+
+@media screen and (max-width: 1520px) {
   #section-menu .menu-card #menu-list .border-menu .card-style img {
     width: 110px;
   }
   #section-menu .menu-card #menu-list .border-menu .prix-card {
     margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #section-menu .menu-card #menu-list .list-group-item {
+    border-right: solid 2px #e1e1e1;
+  }
+  #section-menu .menu-card #menu-list .list-group-item.active {
+    border-right: none;
+    border-bottom: solid 5px #C42D40;
+  }
+  #section-menu .menu-card #menu-list .border-menu {
+    border: none;
   }
 }
 
@@ -16377,8 +16396,76 @@ footer .barre-rouge {
   }
 }
 
+@media screen and (max-width: 769px) {
+  #section-menu .menu-card .container-p {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  #section-menu .menu-card div .our-story {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  #section-menu .menu-card div .our-menu {
+    font-size: 30px;
+  }
+  #section-menu .menu-card #menu-list .list-group-item h2 {
+    display: none;
+  }
+  #section-menu .menu-card #menu-list .list-group-item.active h2 {
+    display: none;
+  }
+  #section-menu .menu-card #menu-list .border-menu .card-style .card-body {
+    display: none;
+  }
+  #section-menu .menu-card #menu-list .border-menu .card-style .prix-card {
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .bout-carte {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #section-center .margin-chef {
+    margin: 0 80px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #section-center .titre-chef .our-chef {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  #section-center .margin-chef {
+    margin: 0 10px;
+  }
+  #section-center .margin-chef .row-chefs div p {
+    font-size: 10px;
+  }
+}
+
 @media screen and (max-width: 1480px) {
   #section-form .form-card .bg-form .container-form .titre-form {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  #section-form .form-card .bg-form {
+    width: 75%;
+  }
+  #section-form .form-card .container-row .card .card-body {
+    width: 370px;
+    margin: 0 auto;
+  }
+  #section-form .form-card .container-row .card .text-card {
     text-align: center;
   }
 }
@@ -16387,9 +16474,43 @@ footer .barre-rouge {
   #section-form .form-card {
     width: 100%;
   }
+  #section-form .form-card div .book-table {
+    font-size: 30px;
+  }
+  #section-form .form-card div .book-table p {
+    line-height: 40px;
+  }
+  #section-form .form-card .bg-form {
+    width: 100%;
+  }
+  #section-form .form-card .titre-blog .our-blog {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
+@media screen and (max-width: 400px) {
+  #section-form .form-card .container-row .card {
+    width: 100%;
+    font-size: 80%;
+  }
+  #section-form .form-card .container-row .card .card-body {
+    position: relative;
+    width: 100%;
+    bottom: 20px;
+    padding: 0;
+  }
+  #section-form .form-card .container-row .card .card-body .text-card {
+    width: 100%;
+    margin: 25px auto 0;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #section-testimo .titre-testimo .client-testimo {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
   #section-testimo .container-testimo {
     width: 90%;
   }
@@ -16398,8 +16519,23 @@ footer .barre-rouge {
   }
 }
 
+@media screen and (max-width: 769px) {
+  #section-contact .titre-contact .our-contact {
+    font-size: 30px;
+  }
+  #section-contact .box-contact {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #section-contact .box-contact {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 1600px) {
   footer .bg-footer .row-footer {
-    width: 85%;
+    width: 95%;
   }
 }

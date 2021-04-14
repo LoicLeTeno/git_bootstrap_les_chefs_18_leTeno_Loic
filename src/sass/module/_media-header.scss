@@ -1,7 +1,9 @@
 @media screen and (max-width: 1590px) {
     header {
+
         // NAV-BAR
         nav {
+
             // NAV-A
             #navbarSupportedContent {
                 div {
@@ -13,6 +15,7 @@
                     }
                 }
             }
+
             // LOGO
             #logo {
                 img {
@@ -27,10 +30,33 @@
     // SECTION-HEADER
     #section-header {
         .bg-carousel {
-        // CAROUSEL
+
+            // CAROUSEL
             #carouselExampleIndicators {
                 padding: 200px 0;
-            }  
+            }
+        }
+    }
+}
+
+
+// TABLET
+@media screen and (max-width: 769px) {
+
+    // BACKGROUND-IMAGE
+    #section-header {
+
+        // CAROUSEL
+        .bg-carousel {
+
+            #carouselExampleIndicators {
+                padding: 100px 0;
+
+                // TITRE-CAROUSEL
+                .titre-header {
+                    font-size: 200%;
+                }
+            }
         }
     }
 }

@@ -1,0 +1,28 @@
+@media screen and (max-width: 769px) {
+    #section-contact {
+        .titre-contact {
+
+            // TITRE-CONTACT
+            .our-contact {
+                font-size: 30px;
+            }
+        }
+
+        // CONTAINER-ROUGE
+        .box-contact {
+            width: 50%;
+        }
+    }
+}
+
+
+// SMARTPHONE
+@media screen and (max-width: 425px) {
+    #section-contact {
+
+        // CONTAINER-ROUGE
+        .box-contact {
+            width: 100%;
+        }
+    }
+}

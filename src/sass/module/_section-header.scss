@@ -1,9 +1,10 @@
 // BACKGROUND-IMAGE
 #section-header {
-        background-image: url(../../../public/img/banner1.jpg);
-        background-repeat: no-repeat;
-        background-position: right;
-// CAROUSEL
+    background-image: url(../../../public/img/banner1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+
+    // CAROUSEL
     .bg-carousel {
         background-color: rgba(0, 0, 0, 0.8);
 
@@ -17,8 +18,10 @@
                     width: 15px;
                     height: 15px;
                 }
+
                 #rond-indicator.active {}
             }
+
             // TITRE-CAROUSEL
             .titre-header {
                 font-family: $courgette;
@@ -27,22 +30,26 @@
 
                 color: white;
                 filter: brightness(85%);
-                
+
                 span.word-1 {
                     font-size: 150%;
                 }
+
                 span.word-2 {
                     color: #B12A3A;
 
                     font-size: 150%;
                 }
+
                 span.word-3 {
                     font-size: 150%;
                 }
+
                 span.word-4 {
                     font-size: 150%;
                 }
             }
+
             // BUTTONS
             div {
                 .button-1 {
@@ -53,6 +60,7 @@
 
                     margin-top: 50px;
                 }
+
                 .button-2 {
                     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                     background-color: $redButton;
@@ -65,6 +73,7 @@
             }
         }
     }
+
     .banderole {
         background-image: url(../../../public/img/bottom_decoration_img.png);
         background-color: rgb(0, 0, 0);

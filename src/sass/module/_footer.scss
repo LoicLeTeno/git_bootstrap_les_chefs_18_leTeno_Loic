@@ -1,11 +1,12 @@
 footer {
     .banderole-2 {
         background-image: url(../../../public/img/footer_bottom_decoration_img.png);
-        background-color: rgb(0, 0, 0,);
+        background-color: rgb(0, 0, 0, );
         background-repeat: repeat-x;
 
         height: 10px;
     }
+
     // BACKGROUND-FOOTER
     .bg-footer {
         background-image: url(../../../public/img/footer_background.jpg);
@@ -20,15 +21,17 @@ footer {
             // PARAGRAPHE-SOCIAUX
             .col-texte {
                 color: white;
-    
+
                 h3 {
                     padding-bottom: 30px;
                 }
+
                 p {
                     color: rgba(255, 255, 255, 0.8);
                 }
+
                 .logo-sociaux {
-                    
+
                     i {
                         font-size: 180%;
 
@@ -36,15 +39,17 @@ footer {
                     }
                 }
             }
+
             // INSTAGRAM
             .col-insta {
                 color: white;
 
-                h3{
+                h3 {
                     padding-bottom: 30px;
                 }
-                
+
             }
+
             // TAGS-POPULAR
             .col-button {
                 color: white;
@@ -56,7 +61,7 @@ footer {
                 .button-footer {
                     background-color: $redButton;
                     color: white;
-                    
+
                     border: solid 1px white;
 
                     margin-bottom: 10px;
@@ -65,6 +70,7 @@ footer {
             }
         }
     }
+
     // FOO-FOOTER-RED
     .barre-rouge {
         background-color: $redButton;
@@ -72,5 +78,3 @@ footer {
         height: 80px;
     }
 }
-
-

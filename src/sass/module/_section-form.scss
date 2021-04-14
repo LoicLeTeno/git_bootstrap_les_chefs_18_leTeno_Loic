@@ -24,9 +24,10 @@
                     color: $redButton;
 
                     font-size: 150%;
-                }               
+                }
             }
         }
+
         // BACKGROUND-FORM
         .bg-form {
             background-image: url(../../../public/img/book_table_bg.jpg);
@@ -42,14 +43,16 @@
                 // TITRE-CONTAINER-FORM
                 .titre-form {
                     font-family: $lato;
-    
+
                     p {
                         font-size: 105%;
                     }
+
                     span.word-2 {
                         font-size: 150%;
                     }
                 }
+
                 // FORMULAIRE
                 form {
                     .input-form {
@@ -58,12 +61,14 @@
                         height: 45px;
                     }
                 }
+
                 button {
                     background-color: $redButton;
                     color: white;
                 }
             }
         }
+
         // TITRE-BLOG
         .titre-blog {
             .our-blog {
@@ -78,9 +83,10 @@
                     color: $redButton;
 
                     font-size: 150%;
-                }               
+                }
             }
         }
+
         // CONTAINER-ROW-CARD-IMAGE
         .container-row {
             .card {
@@ -90,6 +96,7 @@
                     border: solid 5px $border;
                     border-radius: 15px 15px 15px 15px;
                 }
+
                 .card-body {
                     position: relative;
 
@@ -97,30 +104,33 @@
 
                     .surperposer {
                         display: flex;
-                        justify-content: center;                             
+                        justify-content: center;
 
                         p {
                             display: inline-block;
-                            
+
                             background-color: $redButton;
                             color: white;
-    
+
                             font-family: $lato;
-    
+
                             border-radius: 8px 8px 8px 8px;
-    
+
                             margin: 0;
                             padding: 5px 30px 5px 10px;
                         }
+
                         span.word-4 {
                             font-size: 130%;
                             font-weight: bold;
                         }
+
                         span.word-5 {
                             font-size: 180%;
                             font-weight: lighter;
                         }
                     }
+
                     .text-card {
                         width: 325px;
 

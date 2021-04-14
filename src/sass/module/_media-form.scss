@@ -1,12 +1,47 @@
 @media screen and (max-width: 1480px) {
     #section-form {
+
         // CARTE-CENTER
         .form-card {
+
             // BACKGROUND-FORM
             .bg-form {
                 .container-form {
+
                     // TITRE-CONTAINER-FORM
                     .titre-form {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// 1024
+@media screen and (max-width: 1025px) {
+    #section-form {
+
+        // CARTE-CENTER
+        .form-card {
+
+            // BACKGROUND-FORM
+            .bg-form {
+                width: 75%;
+            }
+
+            // CONTAINER-ROW-CARD-IMAGE
+            .container-row {
+                .card {
+                    .card-body {
+                        width: 370px;
+                        margin: 0 auto;
+
+                        p {}
+                    }
+
+                    .text-card {
                         text-align: center;
                     }
                 }
@@ -19,9 +54,71 @@
 //TABLET
 @media screen and (max-width: 920px) {
     #section-form {
+
         // CARTE-cENTER
         .form-card {
             width: 100%;
+
+            // TITRE-FORM
+            div {
+                .book-table {
+                    font-size: 30px;
+
+                    // IMAGE
+                    p {
+                        line-height: 40px;
+                    }
+                }
+            }
+
+            // BACKGROUND-FORM
+            .bg-form {
+                width: 100%;
+            }
+
+            // TITRE-BLOG
+            .titre-blog {
+                .our-blog {
+                    font-size: 30px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
+
+
+// SMARTPHONE
+@media screen and (max-width: 400px) {
+    #section-form {
+
+        // CARTE-cENTER
+        .form-card {
+
+            // CONTAINER-ROW-CARD-IMAGE
+            .container-row {
+                .card {
+                    width: 100%;
+
+                    font-size: 80%;
+
+                    .card-body {
+                        position: relative;
+
+                        width: 100%;
+
+                        bottom: 20px;
+                        padding: 0;
+
+                        // TEXTE-SOUS-BARRE-ROUGE
+                        .text-card {
+                            width: 100%;
+
+                            margin: 25px auto 0;
+                        }
+                    }
+                }
+            }
         }
     }
 }
